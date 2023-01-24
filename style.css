@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(64, 119, 238);
+    text-align: center;
+}
+.head{
+     /* border: 2px solid black; */
+      width: 700px;
+     height:50px;
+     margin: auto;
+     background-color: white;
+} 
+.head h1{
+   font-size: 40px ;
+   letter-spacing: 0.2rem;
+   color: rgb(64, 119, 238);
+
+}
+
+.inputcontainer{
+    margin: auto;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}
+input{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    
+}
+button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(64, 119, 238);
+    color: white;
+    font-size: large;
+    border: none;
+}
+button:hover{
+    background-color: rgb(33, 98, 240);
+}
+button:active{
+    transform: translateY(2px);
+}
+button:focus{
+    background-color: rgb(33, 98, 240);
+}
+
+#cardContainer{
+  margin-top: 50px;
+}
+
+#cardContainer h1{
+    background-color: rgb(33, 98, 240);
+    width: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+.color{
+    color: rgb(139, 176, 255);
+    text-transform: capitalize;
+}
+
+.cardbody{
+   width: 400px;
+   height: 200px;
+   background-color: white;
+   position: relative;
+    top: 70%;
+    left: 37%;
+    
+}
+
+#conditions{
+   padding-top: 45px ;
+   font-size: large;
+}
+#windSpeed{
+    padding-top: 20px ;
+    font-size: large;
+ }
+ #temprature{
+    padding-top: 20px ;
+    font-size: large;
+ }
+ .colorchange{
+    color: rgb(226, 86, 109);
+ }
